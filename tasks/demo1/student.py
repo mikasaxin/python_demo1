@@ -15,6 +15,7 @@ class Student(Person):
     def run(cls, name, sex):
         student = Student("zhaoxin", "man", "34")
         print "student %s" % student.name
+        print "%s%s%s" % (student.name, student.age, student.sex)
 
 
 if __name__ == '__main__':
